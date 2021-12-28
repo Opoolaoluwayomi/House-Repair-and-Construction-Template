@@ -1,0 +1,1767 @@
+body {
+  width: 100%;
+  overflow-x: hidden;
+  box-sizing: border-box;
+  margin: 0px;
+}
+@media screen and (min-width: 1200px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 720px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  body {
+    width: 100%;
+    overflow-x: hidden;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px 50px;
+}
+
+/*Start section one CSS*/
+
+/* media screen for mobile */
+@media (min-width: 280px) and (max-width: 720px) {
+  .container1 {
+    padding-top: 100px;
+    padding-left: 50px;
+    padding-bottom: 100px;
+    background-image: url("images/dmin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  /*
+    .wrapper1{
+    margin: -50px 0px 0px 0px;
+    width: 50%;
+    }*/
+
+  #para1 {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 25px;
+    vertical-align: baseline;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  #para2 {
+    font-family: "archivo black", sans-serif;
+    font-size: 36px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36.6px;
+    vertical-align: baseline;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+    margin: 0px;
+    padding-top: 20px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  #divider {
+    margin-top: 20px;
+    width: 70%;
+    height: 7px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+  }
+  .sectiononesvg {
+    display: none;
+    margin-top: 30px;
+    align-content: flex-start;
+  }
+  /* .svg1{
+        color:#ffffff;
+        text-align: center;
+        padding:0px 40px;
+    }
+        .svgpara{
+            font-family:'Open Sans',sans-serif;
+        font-size: 16px;
+        color: #ffffff;
+        font-weight: 400;
+        text-transform: uppercase;
+        line-height:19.2px;
+        vertical-align:baseline;
+        letter-spacing:2px;
+        word-spacing:0px;
+        margin:20px 0px 0px;
+        padding:0px;
+        font-style:normal;
+        font-variant:normal;
+        text-decoration:none solid rgb(255, 255, 255);
+        text-align:left;
+        text-indent:0px;
+        } */
+}
+
+/* media screen for Tablet */
+@media (min-width: 721px) and (max-width: 1024px) {
+  .container1 {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-bottom: 200px;
+    background-image: url("images/dmin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+  /*
+.wrapper1{
+margin: -50px 0px 0px 0px;
+width: 50%;
+}*/
+
+  #para1 {
+    font-family: "roboto", sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 35px;
+    vertical-align: baseline;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  #para2 {
+    font-family: "archivo black", sans-serif;
+    font-size: 50px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 36.6px;
+    vertical-align: baseline;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+    margin: 0px;
+    padding-top: 20px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  #divider {
+    margin-top: 30px;
+    width: 40%;
+    height: 7px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+  }
+  .sectiononesvg {
+    display: none;
+    margin-top: 30px;
+    align-content: flex-start;
+  }
+  /* .svg1{
+    color:#ffffff;
+    text-align: center;
+    padding:0px 40px;
+}
+    .svgpara{
+        font-family:'Open Sans',sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height:19.2px;
+    vertical-align:baseline;
+    letter-spacing:2px;
+    word-spacing:0px;
+    margin:20px 0px 0px;
+    padding:0px;
+    font-style:normal;
+    font-variant:normal;
+    text-decoration:none solid rgb(255, 255, 255);
+    text-align:left;
+    text-indent:0px;
+    } */
+}
+/* media screen for PC & Laptop */
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container1 {
+    padding: 300px 0px 250px 150px;
+    background-image: url("images/dmin.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+  }
+
+  .wrapper1 {
+    margin: -50px 0px 0px 0px;
+    width: 50%;
+  }
+
+  #para1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 60px;
+    color: #ffffff;
+    font-weight: 300;
+    text-transform: uppercase;
+    line-height: 72px;
+    vertical-align: baseline;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px 0px 5px 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  #para2 {
+    font-family: "archivo black", sans-serif;
+    font-size: 96px;
+    color: #ffffff;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 105.6px;
+    vertical-align: baseline;
+    letter-spacing: 3px;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px 0px 25px 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  #divider {
+    width: 90%;
+    height: 7px;
+    border: 2px solid #ffffff;
+    background-color: #ffffff;
+  }
+  .sectiononesvg {
+    display: flex;
+    margin-top: 30px;
+    align-content: flex-start;
+  }
+  .svg1 {
+    color: #ffffff;
+    text-align: center;
+    padding: 0px 40px;
+  }
+  .svgpara {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin: 20px 0px 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+}
+/*End section one CSS*/
+
+/*begin section two CSS*/
+/* Mobile Screen*/
+@media (min-width: 280px) and (max-width: 720px) {
+  .container2 {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .container2 > h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #999999;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 11.6px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .container2 > h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .container2 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 17px;
+    color: #111111;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .btn1 {
+    margin: 30px auto 0px;
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    color: #ffffff;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+  }
+  .btn1:hover {
+    background-color: #d1161e;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+}
+/*For Tablet Screen*/
+@media (min-width: 721px) and (max-width: 1024px) {
+  .container2 {
+    background-color: #f2f2f2;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .container2 > h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #999999;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 11.6px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(153, 153, 153);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .container2 > h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .container2 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    color: #111111;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .btn1 {
+    margin: 30px auto 0px;
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    color: #ffffff;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+  }
+  .btn1:hover {
+    background-color: #d1161e;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+}
+/* For PC & Laptop Screen*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container2 {
+    background-color: #f2f2f2;
+    padding: 100px;
+    text-align: center;
+  }
+
+  .container2 > h5 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #999999;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+  }
+
+  .container2 > h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 55px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 20px 180px 0px;
+  }
+
+  .container2 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    color: #111111;
+    font-weight: 100;
+    text-transform: none;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 32px 180px 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .btn1 {
+    margin: 30px auto 60px;
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    color: #ffffff;
+    padding: 16px 36px;
+    border: none;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+  }
+  .btn1:hover {
+    background-color: #d1161e;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+}
+
+/* End section two CSS*/
+
+/* Start section three CSS*/
+
+/* For Mobile Screen*/
+@media (min-width: 280px) and (max-width: 720px) {
+  .container3 {
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .col-wrapper1 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 25px;
+    vertical-align: baseline;
+    text-align: left;
+  }
+  .col-wrapper1,
+  .col-wrap,
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  .col-wrapper2 {
+    margin-top: 50px;
+  }
+  .col-wrapper1 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 30.9px;
+    text-align: left;
+  }
+  #col-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #e71a23;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: -10px;
+    text-align: left;
+  }
+}
+/* For Tablet Screen*/
+@media (min-width: 721px) and (max-width: 1024px) {
+  .container3 {
+    padding: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .col-wrapper1,
+  .col-wrap,
+  img {
+    width: 100%;
+    height: auto;
+  }
+  .col-wrapper1 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 25px;
+    vertical-align: baseline;
+    text-align: left;
+  }
+  .col-wrapper2 {
+    margin-top: 80px;
+  }
+  .col-wrapper2 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 30.9px;
+    text-align: left;
+  }
+  #col-text {
+    font-family: "Roboto", sans-serif;
+    font-size: 25px;
+    color: #e71a23;
+    font-weight: 700;
+    line-height: 36px;
+    margin-top: -10px;
+    text-align: left;
+  }
+}
+/* For PC & Laptop*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container3 {
+    padding: 50px 300px;
+    display: flex;
+  }
+
+  .col-wrapper1 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 25.6px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+  .p-col-wrapper1 {
+    margin: 50px;
+  }
+
+  .col-wrap {
+    margin-left: 30px;
+  }
+  .col-wrapper2 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 36.9px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+  .col-wrapper2 > p {
+    font-family: "Roboto", sans-serif;
+    font-size: 30px;
+    color: #e71a23;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 36px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+}
+
+/* End of section three CSS */
+
+/* start section four CSS*/
+/* For Mobile Screen*/
+@media (min-width: 280px) and (max-width: 720px) {
+  .container4 {
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/g.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px 100px;
+  }
+  .img-container4 img {
+    width: 100%;
+    height: auto;
+  }
+
+  #divider2 {
+    width: 100%;
+    height: 7px;
+    margin-top: 30px;
+    border: 2px solid #e71a23;
+    background-color: #e71a23;
+  }
+  /*.p-container4{
+       margin-top: 50px;
+    
+    }*/
+  .p-container4 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    color: #104e92;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 59.2px;
+    margin-top: 80px;
+  }
+
+  .p-container4 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin: 20px 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+}
+/* For Tablet Screen*/
+@media (min-width: 721px) and (max-width: 1024px) {
+  .container4 {
+    display: flex;
+    background-image: url("images/g.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 20px 50px 10px;
+  }
+  .img-container4 {
+    width: 60%;
+    height: auto;
+    margin-bottom: -12px;
+  }
+  .img-container4 img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  #divider2 {
+    width: 100%;
+    height: 7px;
+    margin-top: 30px;
+    border: 2px solid #e71a23;
+    background-color: #e71a23;
+  }
+  .p-container4 {
+    max-width: 40%;
+  }
+  .p-container4 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 52px;
+    color: #104e92;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 59.2px;
+  }
+
+  .p-container4 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin: 20px 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+}
+/* For PC & Laptop*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container4 {
+    display: flex;
+    background-image: url("images/g.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 0px 200px;
+  }
+  .img-container4 {
+    width: 100%;
+    height: auto;
+  }
+  .img-container4 img {
+    max-width: 90%;
+    height: auto;
+  }
+
+  #divider2 {
+    width: 100%;
+    height: 7px;
+    margin-top: 30px;
+    border: 2px solid #e71a23;
+    background-color: #e71a23;
+  }
+  .p-container4 {
+    max-width: 50%;
+    margin-top: 100px;
+  }
+  .p-container4 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 72px;
+    color: #104e92;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 59.2px;
+  }
+
+  .p-container4 > p {
+    font-family: "open sans", sans-serif;
+    font-size: 20px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 32px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin: 20px 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+}
+
+/* End of section Four CSS*/
+
+/*Begin Section five CSS*/
+
+/* For Mobile Screen*/
+@media (min-width: 280px) and (max-width: 720px) {
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    padding: 70px;
+  }
+  .container5 > h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 55px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .wrapper {
+    margin-bottom: 50px;
+  }
+  .icon-wrapper img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #e71a23;
+    background-color: #e71a23;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  .icon-wrapper h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 28.8px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+  .icon-wrapper p {
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 28.8px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+}
+
+/* For Tablet*/
+@media (min-width: 721px) and (max-width: 1024px) {
+  .container5 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+  }
+  .container5 > h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 55px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+  }
+
+  .icon-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .wrapper {
+    margin-left: 70px;
+  }
+  .icon-wrapper img {
+    height: 100px;
+    width: 100px;
+    border: 1px solid #e71a23;
+    background-color: #e71a23;
+    border-radius: 50%;
+    padding: 15px;
+  }
+  .icon-wrapper h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 28.8px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+  .icon-wrapper p {
+    font-family: "Open sans", sans-serif;
+    font-size: 16px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 28.8px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin-top: 20px;
+    font-style: italic;
+  }
+}
+
+/* For PC & Laptop*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container5 {
+    padding: 30px 200px 100px;
+    margin: 0px;
+  }
+  .container5 > h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 55px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin: 20px 832px 40px 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+
+  .icon-wrapper {
+    display: flex;
+  }
+  .wrapper {
+    padding-right: 50px;
+  }
+  .icon-wrapper img {
+    height: 70px;
+    width: 70px;
+    border: 1px solid #e71a23;
+    background-color: #e71a23;
+    border-radius: 50%;
+    padding: 10px;
+  }
+  .icon-wrapper h4 {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    color: #111111;
+    font-weight: 700;
+    text-transform: capitalize;
+    line-height: 28.8px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin: 20px 0px 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+  .icon-wrapper p {
+    font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 28.8px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin: 20px 0px 0px;
+    padding: 0px;
+    font-style: italic;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: left;
+    text-indent: 0px;
+  }
+}
+/* End of section five CSS */
+
+/* Section Six CSS */
+
+/* For Mobile Screen*/
+@media (min-width: 280px) and (max-width: 720px) {
+  .container6 {
+    background-color: #104e92;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+  }
+  .container6 h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+
+  .container6 h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 46px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 56px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 10px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  .box-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  .box-wrapper img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0px;
+  }
+}
+/* For Tablet*/
+@media (min-width: 721px) and (max-width: 1024px) {
+  .container6 {
+    background-color: #104e92;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 50px;
+  }
+  .text-wrapper {
+    margin-bottom: 50px;
+  }
+  .container6 h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+
+  .container6 h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 66px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 56px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 10px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  .box-wrapper {
+    display: flex;
+  }
+  .box1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .box2 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 5px;
+  }
+  .box3 img {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+  }
+  .box4 img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    margin-left: 10px;
+  }
+}
+/* For PC & Laptop*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container6 {
+    background-color: #104e92;
+    display: flex;
+    padding: 100px 250px;
+  }
+  .text-wrapper {
+    margin-bottom: 50px;
+  }
+  .container6 h6 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: uppercase;
+    line-height: 21.6px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    line-height: 1.5em;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+
+  .container6 h3 {
+    font-family: "Roboto", sans-serif;
+    font-size: 96px;
+    color: #ffffff;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 96px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 10px 0px 0px;
+    margin: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: left;
+    text-indent: 0px;
+  }
+  .box-wrapper {
+    display: flex;
+    margin-left: 100px;
+  }
+  .box1 img {
+    max-width: 100%;
+    height: auto;
+  }
+  .box2 img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 30px;
+  }
+  .box3 img {
+    width: 100%;
+    height: auto;
+    margin-left: 30px;
+  }
+  .box4 img {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+}
+
+/* End of section Six CSS */
+
+/* Section Seven CSS */
+/* Mobile Screen*/
+@media (min-width: 280px) and (max-width: 720px) {
+  .container7 {
+    background-color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+  }
+
+  .container7 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+    color: #111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 21px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-bottom: 0px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .container7 > p {
+    font-family: "Open sans", sans-serif;
+    font-size: 15px;
+    color: #111111;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .btn_wrapper{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .btn1 {
+    margin: 30px auto 0px;
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    color: #ffffff;
+    padding: 16px 46px;
+    border: none;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+  }
+  .btn1:hover {
+    background-color: #d1161e;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  
+  }
+  .btn2 {
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    padding: 16px 50px;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+    cursor: pointer;
+  }
+}
+/*For Tablet Screen*/
+@media (min-width: 721px) and (max-width: 1024px) {
+  .container7 {
+    background-color: #f2f2f2;
+    padding: 100px;
+    text-align: center;
+  }
+
+  .container7 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    color: #111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 25px;
+    vertical-align: baseline;
+    letter-spacing: 2px;
+    word-spacing: 0px;
+    margin-bottom: 10px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17,17,17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+  .container7 > p {
+    font-family: "Open sans", sans-serif;
+    font-size: 18px;
+    color: #111111;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 30px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin-bottom: 20px;
+    padding: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(17, 17, 17);
+    text-align: center;
+    text-indent: 0px;
+  }
+
+
+  .btn1 {
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    color: #ffffff;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+  }
+  .btn1:hover {
+    background-color: #d1161e;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .btn2 {
+    margin-top: 25px;
+    margin-left: 15px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    padding: 16px 36px;
+    border-radius: 3px;
+    font-family: "Open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-align: center;
+    text-indent: 0px;
+    cursor: pointer;
+  }
+}
+/* For PC & Laptop Screen*/
+@media (min-width: 1200px) and (max-width: 1600px) {
+  .container7 {
+    background-color: #fff;
+    padding: 70px 400px;
+    text-align: center;
+  }
+
+  .container7 > h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 36px;
+    color: #111;
+    font-weight: 700;
+    text-transform: none;
+    line-height: 36.9px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+  }
+
+  .container7 > p {
+    font-family: "Open sans", sans-serif;
+    font-size: 30px;
+    color: #111111;
+    font-weight: 300;
+    text-transform: none;
+    line-height: 48px;
+    vertical-align: baseline;
+    letter-spacing: normal;
+    word-spacing: 0px;
+    margin: 30px 0px 0px;
+  }
+
+  .btn1 {
+    margin: 30px auto 60px;
+    background-color: #e71a23;
+    border: 1px solid #e71a23;
+    color: #ffffff;
+    padding: 16px 36px;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+  }
+  .btn1:hover {
+    background-color: #d1161e;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  .btn2 {
+    margin: 30px 20px 60px;
+    background-color: #fff;
+    border: 1px solid #000;
+    color: #000;
+    padding: 16px 36px;
+    border-radius: 3px;
+    font-family: "open sans" sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 19.2px;
+    vertical-align: middle;
+    letter-spacing: 1px;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+    text-indent: 0px;
+    cursor: pointer;
+  }
+}
+/* End section seven CSS*/
+
+/* Footer CSS */
+ /* Mobile Screen*/
+@media (min-width: 280px) and (max-width: 720px) {
+footer{
+  background-color: #333333;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+ #p_footer1{
+  font-family: "open sans" sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color:#fff;
+  text-transform: none;
+  line-height: 22.4px;
+  vertical-align: baseline;
+  letter-spacing:normal ;
+  word-spacing: 0px;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+}
+
+#p_footer2{
+  margin-top: 80px;
+  font-family: "open sans" sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color:#fff;
+  text-transform: none;
+  line-height: 20px;
+  vertical-align: baseline;
+  letter-spacing:normal ;
+  word-spacing: 0px;
+  font-style: normal;
+  font-variant: normal;
+  text-decoration: none solid rgb(255, 255, 255);
+  text-align: center;
+}
+span a:link,a:visited{
+  color:#abcff7;
+} 
+span a:hover{
+  color:#a1a1a1;
+  text-decoration:none ;
+}
+a:active{
+  color:#abcff7;
+} 
+}
+/*For Tablet Screen*/
+@media (min-width: 721px) and (max-width: 1024px) {
+  footer{
+    background-color: #333333;
+    padding: 100px;
+    text-align: center;
+  }
+  
+   #p_footer1{
+    font-family: "open sans" sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color:#fff;
+    text-transform: none;
+    line-height: 22.4px;
+    vertical-align: baseline;
+    letter-spacing:normal ;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  #p_footer2{
+    margin-top: 80px;
+    font-family: "open sans" sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color:#fff;
+    text-transform: none;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing:normal ;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+  }
+  span a:link,a:visited{
+    color:#abcff7;
+  } 
+  span a:hover{
+    color:#a1a1a1;
+    text-decoration:none ;
+  }
+  a:active{
+    color:#abcff7;
+  } 
+}
+@media (min-width: 1200px) and (max-width: 1600px) {
+  footer{
+    background-color: #333333;
+    padding: 50px 400px;
+    text-align: center;
+  }
+  
+   #p_footer1{
+    font-family: "Open Sans" sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color:#fff;
+    text-transform: none;
+    line-height: 22.4px;
+    vertical-align: baseline;
+    letter-spacing:normal ;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  #p_footer2{
+    margin-top: 80px;
+    font-family: "Open Sans" sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color:#fff;
+    text-transform: none;
+    line-height: 20px;
+    vertical-align: baseline;
+    letter-spacing:normal ;
+    word-spacing: 0px;
+    font-style: normal;
+    font-variant: normal;
+    text-decoration: none solid rgb(255, 255, 255);
+    text-align: center;
+  }
+  span a:link, a:visited{
+    color:#abcff7;
+  } 
+
+  span a:hover{
+    color:#a1a1a1;
+    text-decoration:none ;
+  }
+  a:active{
+    color:#abcff7;
+  } 
+}
